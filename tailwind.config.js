@@ -21,15 +21,24 @@ module.exports = {
           '100': {
             transform: 'rotate(360deg)'
           },
-        }
+        },
+        reveal: {
+          '0%': {
+            transform: 'translateY(-20%)'
+          },
+          '100%': {
+            transform: 'translateY(0%)'
+          },
+        },
       },
 
       animation: {
         'waving-hand': 'wave 2s linear infinite',
         'slowspin': 'slowspin 5s linear infinite',
+        reveal: 'reveal 1s',
       },
 
-      
+
 
     },
   },

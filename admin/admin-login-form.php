@@ -35,7 +35,7 @@
             </div>
         </section>
 
-        <section id="hamburger" class="bg-white w-full rounded-2xl shadow-md shadow-bottom-2xl -mt-5 absolute hidden text-center">
+        <section id="hamburger" class="bg-white w-full rounded-2xl shadow-md shadow-bottom-2xl -mt-5 absolute hidden text-center animate-reveal">
             <nav>
                 <div class="">
                     <div class="text-green-900 px-2 pt-2 pb-3 space-y-1 sm:px-3">
