@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}", "*.html", "./admin/admin-login-form.php"],
+  content: ["./src/**/*.{html,js}", "*.html", "./admin/*.php"],
   theme: {
     extend: {
       keyframes: {

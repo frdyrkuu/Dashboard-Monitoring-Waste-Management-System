@@ -58,28 +58,30 @@
         <section class="font-['Poppins'] p-6 ">
             <div class="">
                 <div class="max-w-lg rounded-2xl overflow-hidden shadow-xl m-auto">
-                    <img class="w-60 m-auto" src="../public/images/logo-icon.png" alt="Sunset in the mountains">
+                    <img class="w-60 m-auto" src="../public/images/logo-icon.png" alt="icon-logo    ">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-5 text-center text-green-900">Administrive Login Form</div>
 
                         <div class="flex flex-col space-y-4 font-semibold">
-                            <div>
-                                <label for="username" class="text-gray-700 font-bold">
-                                    Username
-                                </label>
-                                <input type="text" id="username" name="username" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:shadow-outline">
-                            </div>
-                            <div>
-                                <label for="password" class="text-gray-700 font-bold">
-                                    Password
-                                </label>
-                                <input type="password" id="password" name="password" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:shadow-outline">
-                            </div>
-                            <div class="m-auto">
-                                <button type="submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-20 rounded-2xl focus:outline-none hover:scale-105 focus:shadow-outline">
-                                    Sign In
-                                </button>
-                            </div>
+                            <form action="auth.php">
+                                <div>
+                                    <label for="username" class="text-gray-700 font-bold">
+                                        Username
+                                    </label>
+                                    <input type="text" id="username" name="username" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:shadow-outline">
+                                </div>
+                                <div>
+                                    <label for="password" class="text-gray-700 font-bold">
+                                        Password
+                                    </label>
+                                    <input type="password" id="password" name="password" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:shadow-outline">
+                                </div>
+                                <div class="m-auto">
+                                    <button type="submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-20 rounded-2xl focus:outline-none hover:scale-105 focus:shadow-outline">
+                                        Sign In
+                                    </button>
+                                </div>
+                            </form>
                         </div>
 
 
