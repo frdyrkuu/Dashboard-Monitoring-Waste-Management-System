@@ -14,33 +14,48 @@ module.exports = {
           '60%': { transform: 'rotate(0.0deg)' },
           '100%': { transform: 'rotate(0.0deg)' },
         },
-        slowspin: {
-          '0%': {
-            transform: 'rotate(0deg)'
-          },
-          '100': {
-            transform: 'rotate(360deg)'
-          },
+        floating: {
+          '0%': { transform: 'translate(0, 0px)' },
+          '50%': { transform: 'translate(0, 15px)' },
+          '100%': { transform: 'translate(0, -0px)' },
         },
         reveal: {
           '0%': {
-            transform: 'translateY(-20%)'
+            transform: 'translateY(-100%)'
           },
           '100%': {
             transform: 'translateY(0%)'
           },
         },
-      },
 
+        'reveal-x': {
+          '0%': {
+            transform: 'translateX(100%)'
+          },
+          '100%': {
+            transform: 'translateX(0%)'
+          },
+        },
+        openmenu: {
+          '0%': { transform: 'scaleY(0)' },
+          '80%': { transform: 'scaleY(1.2)' },
+          '100%': { transform: 'scaleY(1)' },
+        },
+      },
       animation: {
         'waving-hand': 'wave 2s linear infinite',
-        'slowspin': 'slowspin 5s linear infinite',
+        floating: 'floating 3s linear infinite',
         reveal: 'reveal 1s',
+        'reveal-x': 'reveal-x 1s',
+        'open-menu': 'openmenu 0.5s ease-in-out forwards',
       },
 
-
-
+      screens: {
+        'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
+        'tallscreen': { 'raw': '(min-aspect-ratio: 13/20)' },
+      }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }

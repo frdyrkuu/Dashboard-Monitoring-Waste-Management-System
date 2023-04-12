@@ -7,12 +7,16 @@
 
     <title>Eco-Cyle</title>
     <link rel="stylesheet" href="../dist/output.css">
-    <link rel="stylesheet" href="../src/style.css">
+
+
+    <script src="../node_modules/sweetalert2/dist/sweetalert2.js"></script>
+    <link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.css">
 </head>
 
 <body class="body min-h-screen bg-gray-100 font-['Poppins']">
+
     <!-- HEADER -->
-    <aside class="bg-green-900 text-white h-screen w-52 fixed hidden md:flex flex-col items-center justify-center">
+    <aside class="bg-green-900 text-white h-screen w-52 fixed hidden md:flex flex-col items-center justify-center shadow-xl">
         <img src="../public/images/logo-icon.png" alt="" class="w-1/2">
         <ul class="flex flex-col items-center">
             <li class="my-4">
@@ -22,7 +26,7 @@
             </li>
             <li class="my-4">
                 <a href="#" class="text-gray-300 hover:text-white">
-                    <i class="fas fa-chart-bar"> Account</i>
+                    <i class="fas fa-graph-bar"> Account</i>
                 </a>
             </li>
             <li class="my-4">
@@ -51,10 +55,10 @@
             <div class="flex flex-wrap md:ml-52">
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 1 -->
-                    <div class="bg-white shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-green-500 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
-                            <h2 class="text-4xl text-green-900 font-extrabold mb-2">Plastic</h2>
-                            <p class="text-gray-700 text-center"><span class="text-7xl text-green-700 font-bold">42
+                            <h2 class="text-4xl text-white font-extrabold mb-2">Plastic</h2>
+                            <p class="text-white text-center"><span class="text-7xl text-white font-bold">42
                                 </span><br>In
                                 counts</p>
                         </div>
@@ -65,10 +69,10 @@
                 </div>
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 2 -->
-                    <div class="bg-white shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-blue-500 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
-                            <h2 class="text-4xl text-green-900 font-extrabold mb-2">Paper</h2>
-                            <p class="text-gray-700 text-center"><span class="text-7xl text-green-700 font-bold">50
+                            <h2 class="text-4xl text-white font-extrabold mb-2">Paper</h2>
+                            <p class="text-white text-center"><span class="text-7xl text-white font-bold">50
                                 </span><br>In
                                 counts</p>
                         </div>
@@ -79,10 +83,10 @@
                 </div>
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 3 -->
-                    <div class="bg-white shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-red-500 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
-                            <h2 class="text-4xl text-green-900 font-extrabold mb-2">Metal</h2>
-                            <p class="text-gray-700 text-center"><span class="text-7xl text-green-700 font-bold">65
+                            <h2 class="text-4xl text-white font-extrabold mb-2">Metal</h2>
+                            <p class="text-white text-center"><span class="text-7xl text-white font-bold">65
                                 </span><br>In
                                 counts</p>
                         </div>
@@ -93,15 +97,15 @@
                 </div>
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 4 -->
-                    <div class="bg-white shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-yellow-500 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
-                            <h2 class="text-4xl text-green-900 font-extrabold mb-2">Others</h2>
-                            <p class="text-gray-700 text-center"><span class="text-7xl text-green-700 font-bold">76
+                            <h2 class="text-4xl text-white font-extrabold mb-2">Others</h2>
+                            <p class="text-white text-center"><span class="text-7xl text-white font-bold">76
                                 </span><br>In
                                 counts</p>
                         </div>
                         <div class="w-1/2">
-                            <img src="../public/images/other.png" alt="Ice Cream" class="rounded-lg hover:animate-waving-hand">
+                            <img src="../public/images/others.png" alt="Ice Cream" class="rounded-lg hover:animate-waving-hand">
                         </div>
                     </div>
                 </div>
@@ -114,10 +118,62 @@
                     <!-- Left Card -->
                     <div class="bg-white rounded-lg shadow-lg p-6">
                         <!-- Left Card content goes here -->
-                        <h1 class="text-4xl font-extrabold text-green-900 mb-4">Chart</h1>
-                        <p class="text-gray-600">Left Card content goes here</p>
-                        <p class="text-gray-600">Left Card content goes here</p>
-                        <p class="text-gray-600">Left Card content goes here</p>
+                        <h1 class="text-4xl font-extrabold text-green-900 mb-4">Graph</h1>
+
+                        <!-- graph CONTENT HERE -->
+
+                        <h1 class="text-2xl mb-4 text-green-900 font-bold">Waste Types Distribution</h1>
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-blue-500 rounded-md"></div>
+                            </div>
+                            <div class="flex-grow ml-4">
+                                <div class="text-gray-700 font-semibold">Paper</div>
+                                <div class="bg-blue-200 h-2 rounded-md mt-1">
+                                    <div class="h-full w-3/4 bg-blue-500 rounded-md"></div>
+                                </div>
+                            </div>
+                            <div class="ml-2 text-gray-600 font-semibold">75%</div>
+                        </div>
+                        <div class="flex items-center mt-3">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-green-500 rounded-md"></div>
+                            </div>
+                            <div class="flex-grow ml-4">
+                                <div class="text-gray-700 font-semibold">Plastic</div>
+                                <div class="bg-green-200 h-2 rounded-md mt-1">
+                                    <div class="h-full w-2/3 bg-green-500 rounded-md"></div>
+                                </div>
+                            </div>
+                            <div class="ml-2 text-gray-600 font-semibold">65%</div>
+                        </div>
+                        <div class="flex items-center mt-3">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-red-500 rounded-md"></div>
+                            </div>
+                            <div class="flex-grow ml-4">
+                                <div class="text-gray-700 font-semibold">Metal</div>
+                                <div class="bg-red-200 h-2 rounded-md mt-1">
+                                    <div class="h-full w-1/2 bg-red-500 rounded-md"></div>
+                                </div>
+                            </div>
+                            <div class="ml-2 text-gray-600 font-semibold">50%</div>
+                        </div>
+                        <div class="flex items-center mt-3">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-yellow-500 rounded-md"></div>
+                            </div>
+                            <div class="flex-grow ml-4">
+                                <div class="text-gray-700 font-semibold">Others</div>
+                                <div class="bg-yellow-200 h-2 rounded-md mt-1">
+                                    <div class="h-full w-1/4 bg-yellow-500 rounded-md"></div>
+                                </div>
+                            </div>
+                            <div class="ml-2 text-gray-600 font-semibold">25%</div>
+                        </div>
+
+                        <!-- END graph CONTENT -->
+
                     </div>
                 </div>
                 <div class="w-full sm:w-full md:w-full lg:w-1/3 xl:w-1/3 p-4">
@@ -125,6 +181,30 @@
                     <div class="bg-white rounded-lg shadow-lg p-6">
                         <!-- Right Card content goes here -->
                         <h1 class="text-4xl font-extrabold text-green-900 mb-4">Trashbin Monitoring</h1>
+
+                        <!-- TRASHBIN MONITORING CONTENT -->
+
+                        <!-- HTML Code -->
+                        <div class="relative m-auto w-48 h-48">
+                            <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gray-300"></div>
+                            <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gradient-to-t from-green-500 to-green-700 transform origin-bottom "></div>
+                            <div class="absolute top-0 left-0 w-full h-full rounded-full flex items-center justify-center">
+                                <div class="text-center">
+                                    <div class="text-white text-2xl font-bold">50%</div>
+                                    <div class="text-white text-sm">Capacity</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div>
+                            <h3 class="text-center mt-4 font-bold text-black text-2xl">Warning</h3>
+                            <p class="text-center">
+                                You have to ubos the basura in the trashbin
+                            </p>
+                        </div>
+
+                        <!-- END TRASHBIN CONTENT -->
 
                     </div>
                 </div>
