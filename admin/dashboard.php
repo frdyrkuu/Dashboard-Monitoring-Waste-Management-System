@@ -8,7 +8,6 @@
     <title>Eco-Cyle</title>
     <link rel="stylesheet" href="../dist/output.css">
 
-
     <script src="../node_modules/sweetalert2/dist/sweetalert2.js"></script>
     <link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.css">
 </head>
@@ -16,8 +15,8 @@
 <body class="body min-h-screen bg-gray-100 font-['Poppins']">
 
     <!-- HEADER -->
-    <aside class="bg-green-900 text-white h-screen w-52 fixed hidden md:flex flex-col items-center justify-center shadow-xl">
-        <img src="../public/images/logo-icon.png" alt="" class="w-1/2">
+    <aside class="bg-green-900 text-white h-screen w-52 fixed hidden md:flex flex-col shadow-xl">
+        <img src="../public/images/logo-icon.png" alt="" class="w-1/2 mx-auto mt-2">
         <ul class="flex flex-col items-center">
             <li class="my-4">
                 <a href="#" class="text-gray-300 hover:text-white">
@@ -44,7 +43,7 @@
     <!-- Main Content -->
     <main class="p-4">
         <!-- Header -->
-        <header class="bg-white p-4 rounded-2xl md:ml-52 shadow-lg">
+        <header class="bg-white p-4 rounded-2xl md:ml-52 shadow-lg md:h-40">
             <h1 class="text-gray-800 font-bold text-xl text-center">Eco-Cyle Dashboard</h1>
         </header>
         <!-- Content -->
@@ -63,7 +62,7 @@
                                 counts</p>
                         </div>
                         <div class="w-1/2">
-                            <img src="../public/images/plastic.png" alt="Ice Cream" class="rounded-lg hover:animate-waving-hand">
+                            <img src="../public/images/plastic.png" alt="Plastic" class="rounded-lg hover:animate-waving-hand">
                         </div>
                     </div>
                 </div>
@@ -77,7 +76,7 @@
                                 counts</p>
                         </div>
                         <div class="w-1/2">
-                            <img src="../public/images/paper.png" alt="Ice Cream" class="rounded-lg hover:animate-waving-hand">
+                            <img src="../public/images/paper.png" alt="Paper" class="rounded-lg hover:animate-waving-hand">
                         </div>
                     </div>
                 </div>
@@ -91,7 +90,7 @@
                                 counts</p>
                         </div>
                         <div class="w-1/2">
-                            <img src="../public/images/metal.png" alt="Ice Cream" class="rounded-lg hover:animate-waving-hand">
+                            <img src="../public/images/metal.png" alt="Metal" class="rounded-lg hover:animate-waving-hand">
                         </div>
                     </div>
                 </div>
@@ -105,7 +104,7 @@
                                 counts</p>
                         </div>
                         <div class="w-1/2">
-                            <img src="../public/images/others.png" alt="Ice Cream" class="rounded-lg hover:animate-waving-hand">
+                            <img src="../public/images/others.png" alt="Other" class="rounded-lg hover:animate-waving-hand">
                         </div>
                     </div>
                 </div>
@@ -190,15 +189,62 @@
                             <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gradient-to-t from-green-500 to-green-700 transform origin-bottom "></div>
                             <div class="absolute top-0 left-0 w-full h-full rounded-full flex items-center justify-center">
                                 <div class="text-center">
-                                    <div class="text-white text-2xl font-bold">50%</div>
-                                    <div class="text-white text-sm">Capacity</div>
+                                    <div class="text-white text-3xl font-bold">50%</div>
+                                    <div class="text-white text-md">Capacity</div>
+                                    <div class="text-white text-sm">Overall Trashbin</div>
                                 </div>
                             </div>
                         </div>
 
+                        <!-- CAPACITY PER CATEGORY -->
+                        <div class="flex justify-center mt-7 gap-2">
+                            <!-- SMALL CIRCLE -->
+                            <div class="relative m-auto w-24 h-24">
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gray-300"></div>
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gradient-to-t from-green-500 to-green-700 transform origin-bottom "></div>
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full flex items-center justify-center">
+                                    <div class="text-center">
+                                        <div class="text-white text-xl font-bold">50%</div>
+                                        <div class="text-white text-sm">Plastic</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="relative m-auto w-24 h-24">
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gray-300"></div>
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gradient-to-t from-blue-500 to-blue-700 transform origin-bottom "></div>
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full flex items-center justify-center">
+                                    <div class="text-center">
+                                        <div class="text-white text-xl font-bold">65%</div>
+                                        <div class="text-white text-sm">Paper</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative m-auto w-24 h-24">
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gray-300"></div>
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gradient-to-t from-red-500 to-red-700 transform origin-bottom "></div>
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full flex items-center justify-center">
+                                    <div class="text-center">
+                                        <div class="text-white text-xl font-bold">37%</div>
+                                        <div class="text-white text-sm">Metal</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative m-auto w-24 h-24">
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gray-300"></div>
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full bg-gradient-to-t from-yellow-500 to-yellow-700 transform origin-bottom "></div>
+                                <div class="absolute top-0 left-0 w-full h-full rounded-full flex items-center justify-center">
+                                    <div class="text-center">
+                                        <div class="text-white text-xl font-bold">75%</div>
+                                        <div class="text-white text-sm">Other</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                         <div>
-                            <h3 class="text-center mt-4 font-bold text-black text-2xl">Warning</h3>
+                            <h3 class="text-center mt-10 font-bold text-black text-2xl">Warning</h3>
                             <p class="text-center">
                                 You have to ubos the basura in the trashbin
                             </p>

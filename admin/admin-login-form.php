@@ -68,13 +68,13 @@
                                     <label for="username" class="text-gray-700 font-bold">
                                         Username
                                     </label>
-                                    <input type="text" id="username" name="username" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:shadow-outline">
+                                    <input type="text" id="username" name="username" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:shadow-outline" required>
                                 </div>
                                 <div>
                                     <label for="password" class="text-gray-700 font-bold">
                                         Password
                                     </label>
-                                    <input type="password" id="password" name="password" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:shadow-outline">
+                                    <input type="password" id="password" name="password" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:shadow-outline" required>
                                 </div>
                                 <div class="m-auto">
                                     <button type="submit" class="p-2 px-12 border-2 bg-green-500 text-white text-xl rounded-xl transition-colors duration-700 transform hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-300 border-b-8 border-green-900 hover:scale-105">
@@ -97,7 +97,7 @@
         </div>
     </footer>
     <!-- END FOOTER -->
-    
+
     <script src="../src/hamburger.js"></script>
 </body>
 
