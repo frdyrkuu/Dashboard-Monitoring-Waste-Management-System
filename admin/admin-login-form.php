@@ -8,7 +8,7 @@
     <title>Eco-Cyle</title>
 </head>
 
-<body class="body min-h-screen font-['Poppins']">
+<body class="body min-h-screen font-['Poppins'] bg-gray-100">
 
     <!-- HEADER -->
     <header class="bg-white text-green-900 sticky top-0 z-50 shadow-md rounded-2xl">
@@ -56,14 +56,14 @@
     <main class="max-w-7xl mx-auto">
         <!-- START OF LANDING PAGE -->
         <section class="font-['Poppins'] p-6 ">
-            <div class="">
-                <div class="max-w-lg rounded-2xl overflow-hidden shadow-xl m-auto">
+            <div>
+                <div class="max-w-lg rounded-2xl overflow-hidden shadow-xl m-auto bg-white">
                     <img class="w-60 m-auto" src="../public/images/logo-icon.png" alt="icon-logo    ">
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-5 text-center text-green-900">Administrive Login Form</div>
 
                         <div class="flex flex-col space-y-4 font-semibold">
-                            <form action="auth.php">
+                            <form action="auth.php" class="flex flex-col space-y-4 font-semibold">
                                 <div>
                                     <label for="username" class="text-gray-700 font-bold">
                                         Username
@@ -77,28 +77,27 @@
                                     <input type="password" id="password" name="password" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:shadow-outline">
                                 </div>
                                 <div class="m-auto">
-                                    <button type="submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-20 rounded-2xl focus:outline-none hover:scale-105 focus:shadow-outline">
+                                    <button type="submit" class="p-2 px-12 border-2 bg-green-500 text-white text-xl rounded-xl transition-colors duration-700 transform hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-300 border-b-8 border-green-900 hover:scale-105">
                                         Sign In
                                     </button>
                                 </div>
                             </form>
                         </div>
-
-
                     </div>
-
                 </div>
-
             </div>
         </section>
         <!-- END LANDING PAGE -->
     </main>
 
-    <footer class="bg-gray-100 py-4 bottom-0 w-full rounded-2xl shadow-xl">
+    <!-- FOOTER -->
+    <footer class="bg-green-900 py-4 bottom-0 w-full rounded-lg h-60 shadow-lg mt-10">
         <div class="container mx-auto text-center">
-            <p class="text-gray-900 text-sm">© 2023 EcoCycle. All rights reserved.</p>
+            <p class="text-white text-sm">© 2023 EcoCycle. All rights reserved.</p>
         </div>
     </footer>
+    <!-- END FOOTER -->
+    
     <script src="../src/hamburger.js"></script>
 </body>
 

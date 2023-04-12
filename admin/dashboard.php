@@ -8,31 +8,31 @@
     <title>Eco-Cyle</title>
     <link rel="stylesheet" href="../dist/output.css">
     <link rel="stylesheet" href="../src/style.css">
-
 </head>
 
-<body class="body min-h-screen bg-gray-100">
+<body class="body min-h-screen bg-gray-100 font-['Poppins']">
     <!-- HEADER -->
     <aside class="bg-green-900 text-white h-screen w-52 fixed hidden md:flex flex-col items-center justify-center">
+        <img src="../public/images/logo-icon.png" alt="" class="w-1/2">
         <ul class="flex flex-col items-center">
             <li class="my-4">
                 <a href="#" class="text-gray-300 hover:text-white">
-                    <i class="fas fa-home">Dashboard</i>
+                    <i class="fa fa-home"> Dashboard</i>
                 </a>
             </li>
             <li class="my-4">
                 <a href="#" class="text-gray-300 hover:text-white">
-                    <i class="fas fa-chart-bar">Account</i>
+                    <i class="fas fa-chart-bar"> Account</i>
                 </a>
             </li>
             <li class="my-4">
                 <a href="#" class="text-gray-300 hover:text-white">
-                    <i class="fas fa-users">Users</i>
+                    <i class="fas fa-users"> Users</i>
                 </a>
             </li>
             <li class="my-4">
                 <a href="../index.html" class="text-gray-300 hover:text-white">
-                    <i class="fas fa-cog">AHAHA</i>
+                    <i class="fas fa-cog"> AHAHA</i>
                 </a>
             </li>
         </ul>
