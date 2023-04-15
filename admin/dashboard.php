@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.css">
 </head>
 
-<body class="body min-h-screen bg-gray-100 font-['Poppins']">
+<body class="body min-h-screen font-['Poppins']">
 
     <!-- HEADER -->
     <aside class="bg-green-900 text-white h-screen w-52 fixed hidden md:flex flex-col shadow-xl">
@@ -20,22 +20,22 @@
         <ul class="flex flex-col items-center">
             <li class="my-4">
                 <a href="#" class="text-gray-300 hover:text-white">
-                    <i class="fa fa-home"> Dashboard</i>
+                    Dashboard
                 </a>
             </li>
             <li class="my-4">
                 <a href="#" class="text-gray-300 hover:text-white">
-                    <i class="fas fa-graph-bar"> Account</i>
+                    Account
                 </a>
             </li>
             <li class="my-4">
                 <a href="#" class="text-gray-300 hover:text-white">
-                    <i class="fas fa-users"> Users</i>
+                    User
                 </a>
             </li>
             <li class="my-4">
                 <a href="../index.html" class="text-gray-300 hover:text-white">
-                    <i class="fas fa-cog"> AHAHA</i>
+                    Home
                 </a>
             </li>
         </ul>
@@ -43,8 +43,8 @@
     <!-- Main Content -->
     <main class="p-4">
         <!-- Header -->
-        <header class="bg-white p-4 rounded-2xl md:ml-52 shadow-lg md:h-40">
-            <h1 class="text-gray-800 font-bold text-xl text-center">Eco-Cyle Dashboard</h1>
+        <header class="bg-green-900 p-4 rounded-2xl md:ml-52 shadow-lg">
+            <h1 class="text-white font-bold text-xl text-center">Eco-Cyle Dashboard</h1>
         </header>
         <!-- Content -->
         <section class="mt-4">
@@ -54,7 +54,7 @@
             <div class="flex flex-wrap md:ml-52">
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 1 -->
-                    <div class="bg-green-500 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-gradient-to-r from-green-500 to-green-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
                             <h2 class="text-4xl text-white font-extrabold mb-2">Plastic</h2>
                             <p class="text-white text-center"><span class="text-7xl text-white font-bold">42
@@ -68,7 +68,7 @@
                 </div>
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 2 -->
-                    <div class="bg-blue-500 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-gradient-to-r from-blue-500 to-blue-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
                             <h2 class="text-4xl text-white font-extrabold mb-2">Paper</h2>
                             <p class="text-white text-center"><span class="text-7xl text-white font-bold">50
@@ -82,7 +82,7 @@
                 </div>
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 3 -->
-                    <div class="bg-red-500 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-gradient-to-r from-red-500 to-red-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
                             <h2 class="text-4xl text-white font-extrabold mb-2">Metal</h2>
                             <p class="text-white text-center"><span class="text-7xl text-white font-bold">65
@@ -96,7 +96,7 @@
                 </div>
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 4 -->
-                    <div class="bg-yellow-500 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-gradient-to-r from-yellow-400 to-yellow-200 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
                             <h2 class="text-4xl text-white font-extrabold mb-2">Others</h2>
                             <p class="text-white text-center"><span class="text-7xl text-white font-bold">76
