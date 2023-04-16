@@ -13,7 +13,7 @@
 </head>
 
 <body class="body min-h-screen font-['Poppins']">
-
+    <!-- THIS IS DASHBOARD -->
     <!-- HEADER -->
     <aside class="bg-green-900 text-white h-screen w-52 fixed hidden md:flex flex-col shadow-xl">
         <img src="../public/images/logo-icon.png" alt="" class="w-1/2 mx-auto mt-2">
