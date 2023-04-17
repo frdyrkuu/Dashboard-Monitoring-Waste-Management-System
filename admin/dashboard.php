@@ -44,8 +44,36 @@
     <main class="p-4">
         <!-- Header -->
         <header class="bg-green-900 p-4 rounded-2xl md:ml-52 shadow-lg">
+            <section>
+                <button onclick="showHamburger()" class="text-2xl md:hidden cursor-pointer text-white font-bold float-left">
+                    ☰
+                </button>
+
+                <button onclick="" class="text-2xl md:hidden cursor-pointer text-white font-bold float-right">
+                    🏠
+                </button>
+            </section>
             <h1 class="text-white font-bold text-xl text-center">Eco-Cyle Dashboard</h1>
+
+            <section id="hamburger" class="bg-white w-full right-1 text-center rounded-2xl shadow-md shadow-bottom-2xl border border-gray-300 mt-7 absolute hidden">
+                <nav>
+                    <div class="">
+                        <div class="text-green-900 px-2 pt-4 pb-3 space-y-1 sm:px-3">
+                            <a href="#" class="block px-3 py-4 rounded-md text-base font-medium hover:bg-green-200">Home</a>
+                            <a href="#" class="block px-3 py-4 rounded-md text-base font-medium hover:bg-green-200">Our
+                                Goal</a>
+                            <a href="#" class="block px-3 py-4 rounded-md text-base font-medium hover:bg-green-200">About
+                                Us</a>
+                            <a href="" class="py-4">
+                                <button class="p-2 pl-5 pr-5 border-2 bg-green-500 text-white font-bold rounded-xl transition-colors duration-700 transform hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-300 border-b-8 border-green-900 hover:scale-105">System
+                                    Administrator</button>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </section>
         </header>
+
         <!-- Content -->
         <section class="mt-4">
             <!-- Add your content here -->
@@ -259,7 +287,7 @@
 
         </section>
     </main>
-
+    <script src="../src/hamburger.js"></script>
 </body>
 
 </html>
