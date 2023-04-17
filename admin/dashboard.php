@@ -49,9 +49,9 @@
                     ☰
                 </button>
 
-                <button onclick="" class="text-2xl md:hidden cursor-pointer text-white font-bold float-right">
+                <a href="/index.html" class="text-2xl md:hidden cursor-pointer text-white font-bold float-right">
                     🏠
-                </button>
+                </a>
             </section>
             <h1 class="text-white font-bold text-xl text-center">Eco-Cyle Dashboard</h1>
 
