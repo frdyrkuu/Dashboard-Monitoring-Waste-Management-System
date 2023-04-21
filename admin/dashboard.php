@@ -51,7 +51,7 @@
             <!-- Add your content here -->
 
             <!-- START CARD COUNT  -->
-            <div class="flex flex-wrap md:ml-52">
+            <div class="flex flex-wrap md:ml-52">   
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 1 -->
                     <div class="bg-gradient-to-r from-green-500 to-green-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
