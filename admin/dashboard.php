@@ -44,8 +44,36 @@
     <main class="p-4">
         <!-- Header -->
         <header class="bg-green-900 p-4 rounded-2xl md:ml-52 shadow-lg">
+            <section>
+                <button onclick="showHamburger()" class="text-2xl md:hidden cursor-pointer text-white font-bold float-left">
+                    ☰
+                </button>
+
+                <a href="/index.html" class="text-2xl md:hidden cursor-pointer text-white font-bold float-right">
+                    🏠
+                </a>
+            </section>
             <h1 class="text-white font-bold text-xl text-center">Eco-Cyle Dashboard</h1>
+
+            <section id="hamburger" class="bg-white w-full right-1 text-center rounded-2xl shadow-md shadow-bottom-2xl border border-gray-300 mt-7 absolute hidden">
+                <nav>
+                    <div class="">
+                        <div class="text-green-900 px-2 pt-4 pb-3 space-y-1 sm:px-3">
+                            <a href="#" class="block px-3 py-4 rounded-md text-base font-medium hover:bg-green-200">Home</a>
+                            <a href="#" class="block px-3 py-4 rounded-md text-base font-medium hover:bg-green-200">Our
+                                Goal</a>
+                            <a href="#" class="block px-3 py-4 rounded-md text-base font-medium hover:bg-green-200">About
+                                Us</a>
+                            <a href="" class="py-4">
+                                <button class="p-2 pl-5 pr-5 border-2 bg-green-500 text-white font-bold rounded-xl transition-colors duration-700 transform hover:bg-green-700 hover:text-gray-100 focus:border-4 focus:border-green-300 border-b-8 border-green-900 hover:scale-105">System
+                                    Administrator</button>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </section>
         </header>
+
         <!-- Content -->
         <section class="mt-4">
             <!-- Add your content here -->
@@ -54,7 +82,7 @@
             <div class="flex flex-wrap md:ml-52">   
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 1 -->
-                    <div class="bg-gradient-to-r from-green-500 to-green-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-gradient-to-b from-green-500 to-green-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
                             <h2 class="text-4xl text-white font-extrabold mb-2">Plastic</h2>
                             <p class="text-white text-center"><span class="text-7xl text-white font-bold">42
@@ -68,7 +96,7 @@
                 </div>
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 2 -->
-                    <div class="bg-gradient-to-r from-blue-500 to-blue-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-gradient-to-b from-blue-500 to-blue-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
                             <h2 class="text-4xl text-white font-extrabold mb-2">Paper</h2>
                             <p class="text-white text-center"><span class="text-7xl text-white font-bold">50
@@ -82,7 +110,7 @@
                 </div>
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 3 -->
-                    <div class="bg-gradient-to-r from-red-500 to-red-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-gradient-to-b from-red-500 to-red-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
                             <h2 class="text-4xl text-white font-extrabold mb-2">Metal</h2>
                             <p class="text-white text-center"><span class="text-7xl text-white font-bold">65
@@ -96,7 +124,7 @@
                 </div>
                 <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 p-4">
                     <!-- Card 4 -->
-                    <div class="bg-gradient-to-r from-yellow-400 to-yellow-200 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
+                    <div class="bg-gradient-to-b from-yellow-500 to-yellow-300 shadow-lg rounded-lg p-4 flex flex-row items-center transition duration-700 hover:scale-110 animate-reveal-x w-full">
                         <div class="w-1/2 pr-4">
                             <h2 class="text-4xl text-white font-extrabold mb-2">Others</h2>
                             <p class="text-white text-center"><span class="text-7xl text-white font-bold">76
@@ -259,7 +287,7 @@
 
         </section>
     </main>
-
+    <script src="../src/hamburger.js"></script>
 </body>
 
 </html>

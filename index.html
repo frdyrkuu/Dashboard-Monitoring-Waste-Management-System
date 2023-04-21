@@ -38,7 +38,7 @@
         </section>
 
         <section id="hamburger"
-            class="bg-white w-1/2 right-1 rounded-2xl shadow-md shadow-bottom-2xl border border-gray-300 -mt-5 absolute hidden">
+            class="bg-white w-full text-center right-1 rounded-2xl shadow-md shadow-bottom-2xl border border-gray-300 -mt-5 absolute hidden lg:hidden">
             <nav>
                 <div class="">
                     <div class="text-green-900 px-2 pt-4 pb-3 space-y-1 sm:px-3">
@@ -60,6 +60,8 @@
 
     <!-- END HEADER -->
 
+    <!-- START CONTENTS HERE -->
+
     <main class="max-w-7xl mx-auto">
         <!-- START OF LANDING PAGE -->
         <section
@@ -69,25 +71,37 @@
                     class="font-['Poppins'] text-5xl font-extrabold text-center sm:text-left sm:text-6xl text-green-500">
                     Welcome to <br> <span class="text-green-900">Ec</span>o-Cycle </h2>
                 <br>
-                <h2 class="text-2xl text-center sm:text-left">
+                <h2 class="text-2xl text-center sm:text-left text-green-900">
                     The waste management system that's good for you and good for the planet.
                 </h2>
-                <h3 class="text-lg mt-2 text-center sm:text-left">
+                <h3 class="text-lg mt-2 text-center sm:text-left text-gray-600">
                     Our mission is to help you reduce waste, promote recycling, and conserve resources, all while making
                     it easy and convenient to do so.
                     <br>
 
-                    <button
-                        class="bg-green-500 text-white font-semibold p-3 rounded-3xl mt-4 shadow-xl px-5 hover:opacity-70 truncate sm:truncate border-b-8 border-green-900 transition duration-500 hover:scale-105">
-                        <span>✉︎</span> See Full Documentation
+                    <button type="button"
+                        class="bg-green-500 text-white font-semibold p-3 rounded-3xl mt-4 shadow-xl px-5 border-b-8 border-green-900">
+                        <div class="flex flex-row">
+                            <span class="animate-waving-hand mr-1">📧</span>
+                            <div>
+                                See Full Documentation
+                            </div>
+                        </div>
                     </button>
                 </h3>
             </article>
-            <img class="w-3/4 sm:w-5/4 animate-floating" src="public/images/earth.png" alt="burger">
+            <img class="w-5/4 sm:w-1/2 animate-floating" src="public/images/earth.png" alt="burger">
         </section>
         <!-- END LANDING PAGE -->
+
+        <!-- FEATURES SECTION -->
+        <!-- Add Feature Content here ... -->
+
+
+        <!-- END FEATURES -->
     </main>
 
+    <!-- END CONTENTS -->
 
     <!-- FOOTER -->
     <footer class="bg-green-900 py-4 bottom-0 w-full rounded-lg h-60 shadow-lg mt-10">
